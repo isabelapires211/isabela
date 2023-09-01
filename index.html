@@ -1,45 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-        <link rel="stylesheet" href="estilo.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans&display=swap">
+    <title>Card NFT</title>
+    <style>
+        .tudo {
+            font-family: Arial, sans-serif;
+            background-color: #F5DEB3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1{
+           font-family: 'Anton', sans-serif;
+           margin-left: 40%;
+           color:   #4B0082;
+        }
+
+        .card {
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px;
+        }
+
+        .card-image {
+            width: 60px;
+            height: 70px;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .card-description {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .card-owner {
+            font-size: 14px;
+            color: #999;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
-
-
 <body>
-    <h1 class="h1">Galeria de fotos de Isabela </h1>
-  <div class="card" id="card">
-    <img class="image" src="img/img2.jpg" alt="NFT Image">
-    <h2 class="name">Foto de mulher neon</h2>
-  
-  </div>
+   <h1>Galeria de fotos </h1>
+   <div class="tudo">
+    <div class="card">
+        <div class="card-image"> 
+          <img src="img/img2.jpg"></div>
+        <div class="card-content">
+            <h2 class="card-title">Título do NFT</h2>
+            <p class="card-description">Descrição do seu NFT. Adicione informações sobre o NFT aqui.</p>
+            <p class="card-owner">Proprietário: Nome do Proprietário</p>
+        </div>
+    </div>
 
-  <div class="card" id="card">
-    <img class="image" src="img/img3.jpg" alt="NFT Image">
-    <h2 class="name">Foto de mulher neons</h2>
-  </div>
+     <div class="card">
+        <div class="card-image"> 
+          <img src="img/img2.jpg"></div>
+        <div class="card-content">
+            <h2 class="card-title">Título do NFT</h2>
+            <p class="card-description">Descrição do seu NFT. Adicione informações sobre o NFT aqui.</p>
+            <p class="card-owner">Proprietário: Nome do Proprietário</p>
+        </div>
+    </div>
 
-  <div class="card" id="card">
-    <img class="image" src="img/img4.jpg" alt="NFT Image">
-    <h2 class="name">Foto de mulher neon</h2>
-  </div>
+     <div class="card">
+        <div class="card-image"> 
+          <img src="img/img2.jpg"></div>
+        <div class="card-content">
+            <h2 class="card-title">Título do NFT</h2>
+            <p class="card-description">Descrição do seu NFT. Adicione informações sobre o NFT aqui.</p>
+            <p class="card-owner">Proprietário: Nome do Proprietário</p>
+        </div>
+    </div>
+
+     <div class="card">
+        <div class="card-image"> 
+          <img src="img/img2.jpg"></div>
+        <div class="card-content">
+            <h2 class="card-title">Título do NFT</h2>
+            <p class="card-description">Descrição do seu NFT. Adicione informações sobre o NFT aqui.</p>
+            <p class="card-owner">Proprietário: Nome do Proprietário</p>
+        </div>
+    </div>
 
 
-  <div class="card" id="card">
-    <img class="image" src="img/img5.jpg" alt="NFT Image">
-    <h2 class="name">Foto de copo neon</h2>
-  </div>
-
-  <div class="card" id="card">
-    <img class="image" src="img/img6.jpg" alt="NFT Image">
-    <h2 class="name">mulher com fores</h2>
-  </div>
-  
-  <script src="script.js"></script>
+    </div>
 </body>
 </html>
-  
