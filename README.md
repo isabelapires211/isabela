@@ -1,11 +1,9 @@
 
 # Projeto de Galeria de Fotos
+![image](https://github.com/isabelapires211/isabela/assets/131170105/130f3756-172b-44ed-a91e-87761d01aaaa)
 
-![image](https://github.com/isabelapires211/isabela/assets/131170105/f5512304-1c85-4a2f-b236-60729fbfeedb)
-![image](https://github.com/isabelapires211/isabela/assets/131170105/b2190cd0-5002-4def-9c1d-6f5a62b67c21)
-![image](https://github.com/isabelapires211/isabela/assets/131170105/7f19ed0b-6b98-4e4f-98be-e2ffae427e40)
-![image](https://github.com/isabelapires211/isabela/assets/131170105/a749734b-99c1-46d3-aacb-9a555eea3cde)
-![image](https://github.com/isabelapires211/isabela/assets/131170105/6252b2cf-dddb-4428-923a-faa34d00c753)
+
+
 
 ## Descrição do Projeto
 
